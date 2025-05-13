@@ -1,0 +1,6 @@
+---
+# tasks file for displayhealth
+    - name: Include task to install Docker
+      include_tasks: docker_install.yml
+    - name: Include task to get Docker status and container details
+      include_tasks: get_docker_status.yml
