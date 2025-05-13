@@ -1,2 +1,5 @@
 ---
 # vars file for displayhealth
+      docker_repo_url_redhat: https://download.docker.com/linux/centos/docker-ce.repo
+      docker_repo_url_debian: https://download.docker.com/linux/ubuntu
+      docker_repo_key_url_debian: https://download.docker.com/linux/ubuntu/gpg
